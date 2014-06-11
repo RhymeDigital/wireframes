@@ -42,7 +42,7 @@ abstract class Wireframe extends Contao_CE
 			$this->cssID = $arrNew;
 			
             // Load wireframe css
-            $GLOBALS['TL_CSS']['wireframes']  = \Haste\Util\Debug::uncompressedFile('system/modules/wireframes/assets/css/wireframes.min.css');
+            $GLOBALS['TL_CSS']['wireframes']  = \Haste\Util\Debug::uncompressedFile('system/modules/wireframes/assets/css/wireframes.min.css|screen|static');
         }
     }
 
